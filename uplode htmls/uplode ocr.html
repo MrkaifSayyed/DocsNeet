@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="uplode ocr.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logoline">
+                <a href="#"><img  src="/Resouress/Imgs/logo with name.png" alt="logo" >
+            </div></a>
+            <div class="navlist">
+                <ul>
+                    
+                </ul>
+            </div>
+            <div>
+                <label class="hamburger">
+                <input type="checkbox">
+                <svg viewBox="0 0 32 32">
+                  <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+                  <path class="line" d="M7 16 27 16"></path>
+                </svg>
+              </label></div>
+            
+            <div class="navfuction">
+               
+                <div class="navline"></div>
+                <div class="mod">
+                    <div class="daymod ">
+                        <a href=""><img class="iconsun" width="20" src="/Resouress/Imgs/🦆 icon _sun_.svg" alt="">
+                    </div></a>
+                </div>
+    
+                <div class="share">
+                    <div class="sharec">
+                        <a href=""><img class="iconshare" width="20" src="/Resouress/Imgs/🦆 icon _share_.svg" alt="">
+                    </div></a>
+                </div>
+               <div class="loginbutton">
+                <button class="login">login</button>
+               
+               </div>
+            </div>
+        </nav>
+       </header>
+
+
+       <div class="heading">
+       <h1>OCR PDF</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+
+
+       <main>
+        <div class="con">
+            <div class="main"> 
+                <input style="display: none;" type="file" id="uplode"> 
+                <div onclick="uplodefile()" class="uplodebox">UPLODE FORM PC OR MBILE</div>
+                <div class="Dragfiles">or Drag files here </div>
+                <div class="btndrive"></div>
+            </div>
+        </div>
+       </main>
+       
+       <script>
+
+         const clickopen = document.querySelector('.uplodebox')
+         const dil = document.querySelector('#uplode')
+
+         function uplodefile(){
+            dil.click()
+         }
+
+       </script>
+</body>
+</html>
